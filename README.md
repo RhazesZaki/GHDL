@@ -16,7 +16,7 @@ nano logic0.dot
 ghdl -a logic0.vhd
 ghdl -a tb_logic0.vhd
 ghdl -e tb_logic0
-ghdl -r tb_logic0 - -vcd=wave.vcd
+ghdl -r tb_logic0 --vcd=wave.vcd
 ```
 
 ## GTKWave
